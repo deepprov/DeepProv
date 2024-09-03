@@ -1,4 +1,4 @@
-# DeepProv: Adversarial Characterization of Neural Networks via Inference Provenance Graphs
+# DeepProv: Behavioral Characterization and Repair of Neural Networks via Inference Provenance Graphs
 This repository containts code and notebooks that demonstrate inference provenance capture and characterization for deep neural networks. The capture is done for benign and adversarial settings of image classifiers (dataset: MNIST) and malware detecttion models (datasetts: CuckooTraces and EMBER) <br />
 
 ### Datasets, Pre-trained Models, and Attacks:
