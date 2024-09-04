@@ -9,7 +9,9 @@ In this repository we include code and notebooks related to *DeepProv* inference
   
 
 -  **Datasets**: 
-	- MNIST is automatically loaded via Keras. 
+	- MNIST is automatically loaded via Keras.
+  	- CIFAR-10 needs a manual python library update which is pytroch_gemoetric to get attributions for heterongenous graphs. The issue is fixed in the github repo of pytorch_geometric but still
+         under testing and conflicts issues. But this is does affect the  correctness and reliability of CIFAR10 results since we fixed the issue locally to get the experiments for CIFAR-10. 
 	- To test *DeepProv* on malware data, you need to download the CuckooTraces ([link here](https://drive.google.com/file/d/1RAMqh5VVlmSR-Z6mVbiHCti5viyntqwS/view?usp=sharing)) and EMBER ([link here](https://ember.elastic.co/ember_dataset_2018_2.tar.bz2)) datasets and add them in the folder `./data/`. By default DeepProv will look for them in that path<br  />
 
   
