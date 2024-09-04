@@ -1331,7 +1331,7 @@ def load_cuckoo(batch_size):
     return(train_loader, test_loader,train_dataset,test_dataset)
 def load_ember(batch_size,attack,data_size=600000):
     import ember
-    X_train, y_train, X_test, y_test = ember.read_vectorized_features("./ember/ember2018/")
+    X_train, y_train, X_test, y_test = ember.read_vectorized_features("./data/ember/ember2018/")
     x=[]
     y_inter=[]
     for i,y in enumerate(y_train):
