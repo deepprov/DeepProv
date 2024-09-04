@@ -23,7 +23,7 @@ In this repository we include code and notebooks related to *DeepProv* inference
 -  **Complementary Data**: Please download the  files and place them in the data folder created before of the project ([link here](https://drive.google.com/drive/folders/1trvTg5dUrSlfewM-gbG7UtHqcWUNcfCC?usp=sharing))
 
 -  **Supported Attacks**: As of now, DeepProv supports the following attacks : <br  />
-	- MNIST: Fast Gradient Sign Method (FGSM), Projected Gradient Descent (PGD) Auto PGD with DLR loss function (APGD-DLR)  and Square <br  />
+	- MNIST: Fast Gradient Sign Method (FGSM), Projected Gradient Descent (PGD) Auto PGD with DLR loss function (APGD-DLR)  and Square , SPSA is not included since it is highly computenationly expensive and raise a lot of human interaction to use it effiently (saving and loading the generated attack manually throught the experiemnts <br  />
 	- CuckooTraces: *CKO* --It incrementally flips `0` bits to `1`, starting by the first one in a feature vector until model evasion is observed <br  />
 	- EMBER: *EMBER* --it  incrementally perturbs features within valid value ranges/options until model evasion is observed <br  /> 
 	More details about supported attacks are provided in the paper
