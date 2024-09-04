@@ -36,9 +36,7 @@ In this repository we include code and notebooks related to *DeepProv* inference
 
 ### Insatallation:
 
-To clone the project https://anonymous.4open.science/r/DeepProv-3FFC , use the following github
-
-repo to clone from anonymous github https://github.com/fedebotu/clone-anonymous-github
+Clone the project,
 
 ```$ cd DeepProv ```
 
