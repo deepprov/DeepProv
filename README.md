@@ -20,7 +20,7 @@ In this repository we include code and notebooks related to *DeepProv* inference
 
   
 
--  **Complementary Data**: Please download the  files and place them in the data folder created before of the project [data]([link here](https://drive.google.com/drive/folders/1trvTg5dUrSlfewM-gbG7UtHqcWUNcfCC?usp=sharing))
+-  **Complementary Data**: Please download the  files and place them in the data folder created before of the project ([link here](https://drive.google.com/drive/folders/1trvTg5dUrSlfewM-gbG7UtHqcWUNcfCC?usp=sharing))
 
 -  **Supported Attacks**: As of now, DeepProv supports the following attacks : <br  />
 	- MNIST: Fast Gradient Sign Method (FGSM), Projected Gradient Descent (PGD) Auto PGD with DLR loss function (APGD-DLR)  and Square <br  />
