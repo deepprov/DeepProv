@@ -61,6 +61,9 @@ def attri_threshold(attack,dataset):
         elif "Square"==attack :
             attr_thr_adv=[1e-3,6e-6,1e-5]
             attr_thr_ben=[2.5e-4,6e-6,1e-5]
+        elif "SIT"==attack :
+            attr_thr_adv=[1e-3,6e-6,1e-5]
+            attr_thr_ben=[2.5e-4,6e-6,1e-5]
     elif dataset=="ember":
         attr_thr_adv=[0.003,1.4e-3,6e-4,6e-4,8e-4,7.5e-4,5e-4,2e-3,1e-3,1e-4]
         attr_thr_ben=[0.003,1.4e-3,6e-4,6e-4,8e-4,7.5e-4,5e-4,2e-3,1e-3,1e-4]
