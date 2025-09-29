@@ -35,5 +35,5 @@ Or To run all claims at once:
 chmod 0755 run_all_claims.sh
 ./run_all_claims.sh
 ```
-(We recommand to run claim per dataset since running all claims could take time to get from one dataset to another since it is sequentially ETA total: 11 hours) \
+**NOTE :** We recommand to run each claim per dataset since running all claims could take time to get from one dataset to another because it will be squential computation (ETA total: 11 hours) \
 For the public infrastructure, we support Google Colab. To reproduce the experiments use the link to the  notebook on google colab in the file infrastructure/info.txt
