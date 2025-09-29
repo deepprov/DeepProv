@@ -30,7 +30,7 @@ chmod 0755 install.sh
 ./install.sh
 ```
 To reproduce the paper’s results, visit the Claims/ folder and run the corresponding run.sh files.
-Or To run all claims at once:
+Or To run all claims at once(We recommand to run claim per dataset since running all claims could take time to get from one dataset to another since it is sequentially ETA total: 11 hours) :
 ```bash
 chmod 0755 run_all_claims.sh
 ./run_all_claims.sh
