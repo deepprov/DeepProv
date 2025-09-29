@@ -30,5 +30,9 @@ chmod 0755 install.sh
 ./install.sh
 ```
 To reproduce the paper’s results, visit the Claims/ folder and run the corresponding run.sh files.
-
+Or To run all claims at once:
+```bash
+chmod 0755 run_all_claims.sh
+./run_all_claims.sh
+```
 For the public infrastructure, we support Google Colab. To reproduce the experiments use the link to the  notebook on google colab in the file infrastructure/info.txt
